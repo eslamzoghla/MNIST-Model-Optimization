@@ -23,8 +23,17 @@ This notebook explores optimization techniques for training a machine learning m
 
 5. **Results Comparison**:  
    - Compares the baseline and optimized models.  
-   - Highlights the improvements achieved through optimization.  
+   - Highlights the improvements achieved through optimization.
 
+### **Outcomes**
+   | Total params | Accuracy & Loss |
+   | ------------ | --------------- |
+   | 93,322       | accuracy: `0.9979` - loss: `0.0071`|
+   | 72,842       | accuracy: `0.9976` - loss: `0.0071`|
+   | 4,034       | accuracy: `0.9627` - loss: `0.1115`|
+
+   ➡️ First 2 rows: The accuracy value is too close, but the distance between parameters is very high.
+   
 ### **Objective**  
 To demonstrate how thoughtful optimization techniques can significantly enhance the performance of a deep learning model on the MNIST dataset.
 
